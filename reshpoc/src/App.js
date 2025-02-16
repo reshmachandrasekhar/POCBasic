@@ -195,7 +195,7 @@ const PopoverForm = () => {
                   value={formData.message}
                   onChange={handleChange}
                   multiline
-                  rows={2}  
+                  rows={6}  
                   error={!!errors.message}
                   helperText={errors.message}
                 />
